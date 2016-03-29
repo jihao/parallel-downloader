@@ -12,11 +12,8 @@ Otherwise failed url will be logged into failed_urls.log.
 optional arguments:
   -h, --help            show this help message and exit
   --parallel PARALLEL   parallel download, default is 4
-  --proxy-file PROXY    proxy file like sqlmap, random selected, default
-                        proxy.txt
-  --user-agents-file UA
-                        user agents file like sqlmap, random selected, default
-                        user-agents.txt
+  --proxy-file PROXY    proxy file like sqlmap, random selected, default proxy.txt
+  --user-agents-file UA user agents file like sqlmap, random selected, default user-agents.txt
   --urls-file URLS      urls to download, one url per line, default urls.txt
 </pre>
 
